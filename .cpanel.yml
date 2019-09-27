@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/[KASUTAJA NIMI]/public_html/htmlcss/[KAUST]
+    - /bin/cp -R * $DEPLOYPATH
+ 
