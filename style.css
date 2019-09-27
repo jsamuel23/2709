@@ -1,0 +1,97 @@
+body *{
+    box-sizing:border-box;
+}
+body{
+	padding:0;
+    margin:0;
+    font-family:sans-serif;
+    font-size:16px;
+    color:#d50000;
+}
+/*top*/
+.page{
+max-width: 2000px;
+
+
+}
+.topnav{
+background-color:;
+overflow:hidden;
+}
+.logo{
+font-size: 20px;
+font-style: Oswald;
+font-weight: bold;
+
+}
+.topnav__elem{
+position: relative;
+display: flex;
+left:85%;
+padding:10px;
+font-weight: bold;
+}
+.header{
+border-radius: 25px;
+background: url("https://images.pexels.com/photos/162379/lost-places-pforphoto-leave-factory-162379.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+background-position: left top;
+background-repeat: repeat;
+padding: 20px; 
+width: 90%;
+height: 20%;
+margin: 20px;
+
+}
+/*content*/
+.categories{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+.title{
+width: 100%;
+display: flex;
+justify-content:center;
+
+
+}
+.cat__elem{
+margin: 20px;
+}
+.cat__img{
+border: 5px solid #d50000;
+border-radius: 4px;
+padding: px;
+width: 150px;
+}
+.cat__header{
+
+}
+.content{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.content__title{
+	color: black;
+width: 100%;
+text-align: center;
+}
+.cotent__elem{
+width: 100%;
+justify-content: space-between;
+}
+.content__img{
+border: 5px solid #d50000;
+border-radius: 4px;
+padding: px;
+width: 350px;
+}
+.content__header{
+
+}
+/*footer*/
+.footer{
+background:url("https://images.unsplash.com/photo-1548776749-e5e327b75d45?ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80");
+}
